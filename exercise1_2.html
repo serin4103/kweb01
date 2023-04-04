@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Simple Survey Page 2</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    
+    <div class="page-header">
+        <h2>&lt; KWEB Survey Page &gt;</h2>
+        <img src="https://i.imgur.com/hSSFVSw.png" alt="kweb_logo" width="300"><br>
+        <a href="https://kwebofficial.com/" title="KWEB official" target="_blank">KWEB Homepage</a>
+        <p>&nbsp;</p>
+    </div>
+    
+    <div class="survey">
+        <h3 class="question">1. Write your name.</h3>
+        <input type="text" name="name">
+    </div>
+
+    <div class="survey">
+        <h3 class="question">2. Write your student number.</h3>
+        <input type="text" name="student-number">
+    </div>
+
+    <div class="survey">
+        <h3 class="question">3. Select your member level.</h3>
+        <span id="level-item">
+            <label><input type="radio" name="level" value="admin">Admin</label>
+            <label><input type="radio" name="level" value="intern">Intern</label>
+            <label><input type="radio" name="level" value="qualified">Qualified</label>
+        </span>
+    </div>
+
+    <div class="survey">
+        <h3 class="question">4. Select all fields you are interested in.</h3>
+        <span id="field-item">
+            <label><input type="checkbox" name="field" value="front-end">Front-end</label>
+            <label><input type="checkbox" name="field" value="back-end">Back-end</label>
+            <label><input type="checkbox" name="field" value="web-crawling">Web crawling</label>
+            <label><input type="checkbox" name="field" value="web-security">Web security</label>
+            <label><input type="checkbox" name="field" value="etcetera">Etcetera
+                <input type="text" name="field"></label> 
+        </span>
+    </div>
+
+    <div class="survey">
+        <h3 class="question">5. Give us your overall evaluation and feedback about the previous study.</h3>
+        <textarea cols="100" rows="10" name="feedback"></textarea>
+    </div>
+
+    <div class="submit-button">
+        <br>
+        <button type="submit">Submit your answers</button>
+    </div>
+    
+
+</body>
+
+</html>
