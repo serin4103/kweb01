@@ -1,0 +1,43 @@
+/*exercise2_5*/
+
+* {
+    margin: 10px 3px;
+}
+
+.header {
+    background-color: pink;
+    border: 1px solid palevioletred;
+    height: 50px;
+}
+
+.navbar {
+    background-color: gold;
+    border: 1px solid orange;
+    height: 150px;
+}
+
+.content {
+    background-color: skyblue;
+    border: 1px solid blue;
+    height: 250px;
+}
+
+.footer {
+    background-color: lightgreen;
+    border: 1px solid green;
+    height: 150px;
+}
+
+@media only screen and (min-width: 800px) {
+    .body div {
+        margin: 0;
+        display: inline-block;
+        height: 400px;
+    }
+    .navbar {
+        width: 19%;
+    }
+    .content {
+        width: 79%;
+    }
+}
